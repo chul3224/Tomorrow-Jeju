@@ -1,0 +1,59 @@
+# 데이터 파일
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.db
+*.sqlite
+
+# API 키 및 민감한 정보
+.env
+.env.*
+config.py
+secrets.py
+api_key*
+*_key.txt
+*_secret.txt
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 가상환경
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 모델 파일
+*.pt
+*.pth
+*.onnx
+AutogluonModels/
+models/
