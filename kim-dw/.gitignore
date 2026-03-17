@@ -57,6 +57,3 @@ desktop.ini
 *.onnx
 AutogluonModels/
 models/
-
-# 로컬 전용 폴더 (참고 자료, 공유 코드 등 깃허브 비공개)
-do_not_git/
